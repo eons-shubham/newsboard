@@ -1,0 +1,59 @@
+body{
+    font-family: Montserrat;
+}
+
+.icon {
+    width: 1.8rem;
+    height: 0.5rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(96deg, #E537B9 0%, #C040DF 100%);
+    margin-bottom: 4px;
+    position: absolute;
+    top: 8px;
+}
+.parent{
+    position: relative;
+}
+.parent > span{
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 104.348% */
+    letter-spacing: 2px
+}
+
+hr{
+    color: #E1E4E8
+}
+
+
+.subheading h4{
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 104.348% */
+    letter-spacing: 2px
+}
+.subheading p{
+    font-weight: 400;
+    color: #858585;
+}
+
+.card-body h5{
+    font-weight: 700;
+    font-family: Montserrat;
+}
+.card-body h6{
+    font-weight: 600;
+    font-size: 14px;
+    color: #586069;
+    font-family: Montserrat;
+}
+
+img:hover{
+    -webkit-filter: brightness(50%);
+}
+
+a{
+    text-decoration: none;
+}
